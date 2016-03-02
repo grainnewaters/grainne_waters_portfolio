@@ -349,14 +349,21 @@ footer a:hover {
   }
 
   header ul {
+  font-size: 1.1em;
   margin-right: 0.5em;
+  }
+
+  .skills {
+  font-size: 1.1em;
   }
 
   .about_description {
   max-width: 85%;
-
+  font-size: 1.1em;
   }
+
   .hiddenOnMobile{
     display: none;
   }
+
 }
