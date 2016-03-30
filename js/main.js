@@ -119,24 +119,3 @@ $(document).ready(function(){
  	});
  });
 
-
-function preloadImages(srcs, imgs, callback) {
-var img;
-var remaining = srcs.length;
-for (var i = 0; i < srcs.length; i++) {
-    img = new Image();
-    img.onload = function() {
-        --remaining;
-        if (remaining <= 0) {
-            callback();
-        }
-    };
-    img.src = srcs[i];
-    imgs.push(img);
-}
-}
-// then to call it, you would use this
-var imageSrcs = ["../images/bw-cannondale.jpg", "../images/bw-olivias.jpg", "../images/bw-dezynamite.jpg", "../images/bw-rockin-robins.jpg", "../images/bw-elmas.jpg", "../images/bw-sacred-heart.jpg",];
-var images = [];
-preloadImages(imageSrcs, images, myFunction);
-
