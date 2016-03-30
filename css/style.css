@@ -245,7 +245,7 @@ header ul li a:hover {
       -ms-flex-align: center; 
               -ms-grid-row-align: center; 
           align-items: center;
-  padding-top: 105px;
+  padding-top: 20px;
 }
 
 .about_photo {
@@ -287,6 +287,7 @@ header ul li a:hover {
   max-width: 900px;
 }
 
+/******** START OF CONTACT SECTION ********/
 .contact {
   background-color: #808080;
   height: 660px;
