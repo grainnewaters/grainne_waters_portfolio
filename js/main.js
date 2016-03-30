@@ -136,7 +136,7 @@ for (var i = 0; i < srcs.length; i++) {
 }
 }
 // then to call it, you would use this
-var imageSrcs = ["../images/bw-cannondale.jpg", "../images/bw-olivias.jpg", "../images/bw-dezynamite.jpg", "src4"];
+var imageSrcs = ["../images/bw-cannondale.jpg", "../images/bw-olivias.jpg", "../images/bw-dezynamite.jpg", "../images/bw-rockin-robins.jpg", "../images/bw-elmas.jpg", "../images/bw-sacred-heart.jpg",];
 var images = [];
 preloadImages(imageSrcs, images, myFunction);
 
