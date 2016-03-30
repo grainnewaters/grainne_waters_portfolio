@@ -511,4 +511,8 @@ footer a:hover {
     display: none;
   }
 
+  .gallery_img_container {
+  width: 90%;
+  }
+
 }
