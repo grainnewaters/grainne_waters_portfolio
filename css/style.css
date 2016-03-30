@@ -39,7 +39,6 @@ header {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-
 }
 
 h1 {
@@ -179,6 +178,24 @@ header ul li a:hover {
 }
 
 /******** START OF GALLERY PAGE ********/
+.gallery_description {
+  background-color: #808080;
+  color: black;
+  text-align: center;
+  font-family: 'roboto_condensedregular';
+  height: 65px;
+  margin: 0px;
+  padding: 35px;
+}
+
+.gallery_description h1 {
+  margin: 0px;
+}
+
+.gallery_description p {
+   margin: 0px;
+}
+
 .gallery_main {
   display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
   display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
@@ -229,7 +246,7 @@ header ul li a:hover {
       -ms-flex-align: center; 
               -ms-grid-row-align: center; 
           align-items: center;
-  padding-top:20px;
+  padding-top: 105px;
 }
 
 .about_photo {
@@ -265,11 +282,137 @@ header ul li a:hover {
   -webkit-box-align: center; 
   -webkit-align-items: center; 
       -ms-flex-align: center; 
-              -ms-grid-row-align: center; 
+              -ms-grid-row-align: center;
           align-items: center;
-  margin: 10px auto 200px;
+  margin: 20px auto 100px;
   text-align: center;
   max-width: 900px;
+}
+
+.contact {
+  background-color: #808080;
+  height: 660px;
+  padding: 20px;
+  text-align: center;
+  margin: auto;
+}
+
+.contact h1 {
+  margin: auto;
+  font-family: 'roboto_condensedregular';
+  padding-top:30px;
+  padding-bottom:10px;
+}
+
+#groups {
+  background-color: rgba(255,255,255,.9);
+}
+
+#sub_groups {
+  background-color: rgba(255,255,255,.9);
+}
+
+#after_submit, #email_validation, #name_validation {
+  display:none;
+}
+
+#after_submit {
+  background-color: #808080;
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+#message {
+  color: black;
+}
+
+#message:focus {
+  outline: 2px solid rgb(0,179,179);
+}
+
+#submit_button:focus {
+  outline: none;
+}
+
+#name {
+  color: black;
+}
+
+#name:focus {
+  outline: 2px solid rgb(0,179,179);
+}
+
+#email {
+  color: black;
+}
+
+#email:focus {
+  outline: 2px solid rgb(0,179,179);
+}
+
+#groups:focus {
+  outline: none;
+}
+
+#sub_groups:focus {
+  outline: none;
+}
+
+label, #after_submit{ 
+  color: white;
+}
+
+input{
+  line-height: 30px;
+}
+
+input, textarea {
+  width: 600px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: rgba(255,255,255,.7);
+  border: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+transition: background-color 50000s ease-in-out 0s, color 5000s ease-in-out 0s;
+}
+
+#submit_button {
+  width: 109px;
+  height: 34px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: black;
+  color: #fff;
+  margin-left: 7px;
+}
+
+#submit_button:hover {
+  color: rgb(0,179,179);
+}
+
+label.required:after {
+  content:'*';
+  color: black;
+}
+
+.error {
+  color: rgb(0,179,179);
+}
+
+.error_message {
+  font-style: italic;
+  font-size: 11px;
+}
+
+.row {
+  margin:20px;
 }
 
 footer {
@@ -290,7 +433,7 @@ footer a {
 }
 
 footer a:hover {
-	color: rgb(0,179,179);  /*#00CCCC;*/
+	color: rgb(0,179,179);
 	text-decoration: none;
 }
 
@@ -323,6 +466,7 @@ footer a:hover {
   .about {
     margin: 0.5em auto 0.5em;
     width: 90%;
+     padding-top: 5%;
   }
 
   .about_photo img {
@@ -331,7 +475,7 @@ footer a:hover {
 
   .about_description {
   margin: 20px;
-  padding-bottom: 5em;
+  padding-bottom: 5%;
   }
 
   .gallery_main {
@@ -341,6 +485,14 @@ footer a:hover {
 .gallery_img_container {
   width: 90%;
   }
+
+input, textarea {
+  width: 21em;
+}
+
+.contact {
+  padding: 1%;
+}
 }
 
 @media only screen and (min-width:481px) and (max-width:768px){

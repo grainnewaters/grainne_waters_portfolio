@@ -16,28 +16,77 @@
 
   <ul class="navigation-links">
     <li class="hiddenOnMobile"><a href="index.html">PORTFOLIO</a></li>
-    <li><a href="about.html">ABOUT ME</a></li>
+    <li><a href="about.html">ABOUT & CONTACT</a></li>
   </ul>
 </header>  
 
 <article>
-    <section class='about'><!--START OF ABOUT SECTION-->
+    <section class="about"><!--START OF ABOUT SECTION-->
     <div class="about_photo"><img src="images/photo_me.png" alt="About Me Photo" /></div>
   </section>
 
-    <section class='about_description'>
-<h2>Hi, I'm Gráinne!</h2>
-
-  <P>Welcome to my portfolio website. I am an Irish Graphic Designer based in Vancouver, Canada. I love all things design! I have created everything from crazy apparel graphics to elegant user interfaces.</p> 
+    <section class="about_description">
+  <P>Welcome to my portfolio website. I am an Irish Graphic Designer based in Vancouver, Canada. <br>I love all things design! I have created everything from crazy apparel graphics to elegant user interfaces.</p> 
 
   <p> My areas of expertise include Branding, Adverising, User Interface Design and Cycling Apparel Design.<br>For more samples of my work please visit my behance page.</p>
     </section>
+
+    <section class="contact">
+    <h1>- CONTACT ME -</h1>
+
+<div id="after_submit"></div>
+<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+
+  <div class="row">
+    <label class="required" for="name">Your Name:</label><br />
+    <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+    <span id="name_validation" class="error_message"></span>
+  </div>
+ 
+  <div class="row">
+    <label class="required" for="email">Your Email:</label><br />
+    <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+    <span id="email_validation" class="error_message"></span>
+  </div>
+
+<div class="row">
+   <select id="groups">
+    <option value=''>-- Select An Option --</option>
+    <option class='project-option' value='I Have A Project'>I Have A Project</option>
+    <option value='I Have Feedback'>I Have Feedback</option>
+    <option value='Other'>Other</option>
+<select>
+<br />
+<select id="sub_groups">
+    <option data-group='SHOW' value='0'>-- Select Project Category--</option>
+    <option data-group='I Have A Project' value='UI Design'>UI Design</option>
+    <option data-group='I Have A Project' value='Branding'>Branding</option>
+    <option data-group='I Have A Project' value='Apparel'>Apparel</option>
+    <option data-group='I Have A Project' value='Other'>Other</option>
+<select>
+</div>
+
+  <div class="row">
+    <label class="required" for="message">Your Message:</label><br />
+    <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+    <span id="message_validation" class="error_message"></span>
+  </div>
+ 
+    <input id="submit_button" type="submit" value="Send Email" />
+</form>
+    </section>
 </article>
+
 
 <footer><!--FOOTER CONTENT-->
   <a href="https://www.behance.net/grainnewaters">Behance</a>
   <a href="https://www.linkedin.com/in/grainnewaters">Linkedin</a>
 </footer>
+
+<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+
 
 </div><!--END OF CONTAINER-->
 </body>
