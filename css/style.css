@@ -229,8 +229,7 @@ header ul li a:hover {
 
 /******** START OF ABOUT PAGE ********/
 .about {
-  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
-  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */         /* OLD - Firefox 19- (buggy but mostly works) */
   display: -ms-flexbox;      /* TWEENER - IE 10 */
   display: -webkit-flex; 
   display: flex;
@@ -412,8 +411,8 @@ label.required:after {
 }
 
 footer {
-	clear: both;
-	position: fixed;
+  clear: both;
+  position: fixed;
   bottom: 0;
   background-color: rgba(8,8,8,0.9);
   padding-top: 20px;
@@ -424,13 +423,13 @@ footer {
 
 footer a {
   padding: 20px 50px;
- 	color: white;
-	text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 footer a:hover {
-	color: rgb(0,179,179);
-	text-decoration: none;
+  color: rgb(0,179,179);
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 480px) {
