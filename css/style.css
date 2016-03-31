@@ -108,70 +108,20 @@ header ul li a:hover {
 
 .portfolio img {
   width: 100%;
-}
-
-#cannondale {
-    filter: grayscale(0);
+      filter: grayscale(0);
   -webkit-filter: grayscale(0);
   -moz-filter: grayscale(0);
   -o-filter: grayscale(0);
   -ms-filter: grayscale(0);
 }
 
-#cannondale:hover {
+.portfolio img:hover {
+  width: 100%;
     filter: grayscale(1);
   -webkit-filter: grayscale(1);
   -moz-filter: grayscale(1);
   -o-filter: grayscale(1);
   -ms-filter: grayscale(1);
-}
-
-#olivias {
-    filter: grayscale(0);
-  -webkit-filter: grayscale(0);
-  -moz-filter: grayscale(0);
-  -o-filter: grayscale(0);
-  -ms-filter: grayscale(0);
-}
-
-#olivias:hover {
-    filter: grayscale(1);
-  -webkit-filter: grayscale(1);
-  -moz-filter: grayscale(1);
-  -o-filter: grayscale(1);
-  -ms-filter: grayscale(1);
-}
-
-#dezynamite {
-  content:url("../images/dezynamite.jpg");
-}
-
-#dezynamite:hover {
-  content:url("../images/bw-dezynamite.jpg");
-}
-
-#rockin-robins {
-  content:url("../images/rockin-robins.jpg");
-}
-
-#rockin-robins:hover {
-  content:url("../images/bw-rockin-robins.jpg");
-}
-
-#elmas {
-  content:url("../images/elmas.jpg");
-}
-
-#elmas:hover {
-  content:url("../images/bw-elmas.jpg");
-}
-
-#sacred-heart {
-  content:url("../images/sacred-heart.jpg");
-}
-
-#sacred-heart:hover {
-  content:url("../images/bw-sacred-heart.jpg");
 }
 
 .skills {
