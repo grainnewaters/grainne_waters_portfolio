@@ -111,19 +111,35 @@ header ul li a:hover {
 }
 
 #cannondale {
-  content:url("../images/cannondale.jpg");
+    filter: grayscale(0);
+  -webkit-filter: grayscale(0);
+  -moz-filter: grayscale(0);
+  -o-filter: grayscale(0);
+  -ms-filter: grayscale(0);
 }
 
 #cannondale:hover {
-  content:url("../images/bw-cannondale.jpg");
+    filter: grayscale(1);
+  -webkit-filter: grayscale(1);
+  -moz-filter: grayscale(1);
+  -o-filter: grayscale(1);
+  -ms-filter: grayscale(1);
 }
 
 #olivias {
-  content:url("../images/olivias.jpg");
+    filter: grayscale(0);
+  -webkit-filter: grayscale(0);
+  -moz-filter: grayscale(0);
+  -o-filter: grayscale(0);
+  -ms-filter: grayscale(0);
 }
 
 #olivias:hover {
-  content:url("../images/bw-olivias.jpg");
+    filter: grayscale(1);
+  -webkit-filter: grayscale(1);
+  -moz-filter: grayscale(1);
+  -o-filter: grayscale(1);
+  -ms-filter: grayscale(1);
 }
 
 #dezynamite {
